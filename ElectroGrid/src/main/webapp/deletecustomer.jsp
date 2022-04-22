@@ -55,7 +55,7 @@
                 <div class="m-4">
 
                     <form action="delete" method="post">
-                        <table class="table table-borderless table-light opacity-75 rounded-right">
+                        <table class="table table-borderless table-light opacity-75 rounded-right border border-warning">
                             <tbody>
 
                                 <tr>

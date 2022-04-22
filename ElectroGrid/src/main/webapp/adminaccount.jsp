@@ -54,7 +54,7 @@
                     <h4 class="text-light">Admin Profile</h4>
                 </div>
                 <div class="m-4">
-                    <table class="table table-borderless table-light opacity-75 rounded-right">
+                    <table class="table table-borderless table-light opacity-75 rounded-right border border-warning">
                         <c:forEach var="cus" items="${cusDetails}">
 
                             <c:set var="id" value="${cus.id}" />

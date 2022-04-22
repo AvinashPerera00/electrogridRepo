@@ -56,7 +56,7 @@
                 <div class="m-4">
                     <form action="update" method="post">
 
-                        <table class="table table-borderless table-light opacity-75 rounded-right">
+                        <table class="table table-borderless table-light opacity-75 rounded-right border border-warning">
                             <tbody>
                                 <tr>
                                     <td>Admin ID</td>
