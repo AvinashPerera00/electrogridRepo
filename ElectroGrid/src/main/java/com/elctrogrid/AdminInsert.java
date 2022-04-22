@@ -27,7 +27,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 		isTrue = AdminDBUtil.insertadmin(name, email, phone, username, password);
 		
 		if(isTrue == true) {
-			RequestDispatcher dis = request.getRequestDispatcher("success.jsp");
+			RequestDispatcher dis = request.getRequestDispatcher("login.jsp");
 			dis.forward(request, response);
 		} else {
 			RequestDispatcher dis2 = request.getRequestDispatcher("unsuccess.jsp");
