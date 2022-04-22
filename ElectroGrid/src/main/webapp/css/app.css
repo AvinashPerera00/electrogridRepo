@@ -1,5 +1,16 @@
 @charset "ISO-8859-1";
 
+.indexHeading{
+	font-family: Candara;
+}
+
+.introTxt{
+	font-family: Candara;
+}
+
+.btnTxt{
+	font-family: Candara;
+}
 .test{
 	text-decoration:none;
 }
