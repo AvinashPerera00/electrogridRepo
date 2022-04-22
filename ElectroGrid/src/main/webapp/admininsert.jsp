@@ -30,27 +30,27 @@
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingName" name="name"
                                         placeholder="Enter your name" required>
-                                    <label for="floatingInput">Name</label>
+                                    <label for="floatingInput">Enter Name With initial</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingEmail" name="email"
                                         placeholder="Enter your email" required>
-                                    <label for="floatingPassword">Email</label>
+                                    <label for="floatingPassword">Enter Email</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingPhone" name="phone"
                                         placeholder="Enter phone number" required>
-                                    <label for="floatingPassword">Phone Number</label>
+                                    <label for="floatingPassword">Enter Phone Number</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingInput" name="uid"
                                         placeholder="Enter your username" required>
-                                    <label for="floatingPassword">User Name</label>
+                                    <label for="floatingPassword"> Enter User Name</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="password" class="form-control" id="floatingPassword" name="psw"
                                         placeholder="Enter your password" required>
-                                    <label for="floatingPassword">Password</label>
+                                    <label for="floatingPassword">Enter Password</label>
                                 </div>
 
 

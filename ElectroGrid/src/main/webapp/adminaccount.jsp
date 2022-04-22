@@ -66,23 +66,23 @@
 
                             <tbody>
                                 <tr>
-                                    <td>Customer ID</td>
+                                    <td>Admin ID</td>
                                     <td>${cus.id}</td>
                                 </tr>
                                 <tr>
-                                    <td>Customer Name</td>
+                                    <td>Admin Name</td>
                                     <td>${cus.name}</td>
                                 </tr>
                                 <tr>
-                                    <td>Customer Email</td>
+                                    <td>Admin Email</td>
                                     <td>${cus.email}</td>
                                 </tr>
                                 <tr>
-                                    <td>Customer Phone</td>
+                                    <td>Admin Phone</td>
                                     <td>${cus.phone}</td>
                                 </tr>
                                 <tr>
-                                    <td>Customer User Name</td>
+                                    <td>Admin User Name</td>
                                     <td>${cus.userName}</td>
                                 </tr>
 
