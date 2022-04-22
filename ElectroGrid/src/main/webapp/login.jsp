@@ -5,7 +5,6 @@
     <head>
         <meta charset="ISO-8859-1">
         <title>Login</title>
-        <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/app.css">
@@ -30,12 +29,12 @@
                             <form action="login" method="post">
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingInput" name="username"
-                                        placeholder="Enter your username">
+                                        placeholder="Enter your username" required>
                                     <label for="floatingInput">User Name</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="password" class="form-control" id="floatingPassword" name="password"
-                                        placeholder="Enter your password">
+                                        placeholder="Enter your password" required>
                                     <label for="floatingPassword">Password</label>
                                 </div>
 
