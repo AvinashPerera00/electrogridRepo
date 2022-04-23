@@ -23,7 +23,8 @@
         <% String id=request.getParameter("id"); String name=request.getParameter("name"); String
             email=request.getParameter("email"); String phone=request.getParameter("phone"); String
             userName=request.getParameter("uname"); String password=request.getParameter("pass"); %>
-
+		
+		<!-- Header menu bar -->
             <div class="m-0">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark opacity-75">
                     <div class="container-fluid">
@@ -54,6 +55,7 @@
                     <h4 class="text-light">Update Profile</h4>
                 </div>
                 <div class="m-4">
+                <!-- Admin details update form -->
                     <form action="update" method="post">
 
                         <table class="table table-borderless table-light opacity-75 rounded-right border border-warning">

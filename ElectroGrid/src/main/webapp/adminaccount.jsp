@@ -22,6 +22,7 @@
         </head>
 
         <body>
+        <!-- Header menu bar -->
             <div class="m-0">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark opacity-75">
                     <div class="container-fluid">
@@ -54,6 +55,7 @@
                     <h4 class="text-light">Admin Profile</h4>
                 </div>
                 <div class="m-4">
+                <!-- Admin data retreving table -->
                     <table class="table table-borderless table-light opacity-75 rounded-right border border-warning">
                         <c:forEach var="cus" items="${cusDetails}">
 
