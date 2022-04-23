@@ -23,7 +23,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 		isTrue = AdminDBUtil.deleteAdmin(id);
 		
 		if (isTrue == true) {
-			RequestDispatcher dispatcher = request.getRequestDispatcher("admininsert.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("index.html");
 			dispatcher.forward(request, response);
 		}
 		else {
