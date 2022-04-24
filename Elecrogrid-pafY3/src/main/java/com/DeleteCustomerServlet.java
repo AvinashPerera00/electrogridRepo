@@ -22,7 +22,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 		isTrue = cusDBUtil.deleteCustomer(id);
 		
 		if (isTrue == true) {
-			RequestDispatcher dispatcher = request.getRequestDispatcher("customerinsert.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("cusInsert.jsp");
 			dispatcher.forward(request, response);
 		}
 		else {
@@ -30,7 +30,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			List<Customer> cusDetails = cusDBUtil.getCustomerDetails(id);
 			request.setAttribute("cusDetails", cusDetails);
 			
-			RequestDispatcher dispatcher = request.getRequestDispatcher("customeraccount.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("cusAccount.jsp");
 			dispatcher.forward(request, response);
 		}
 		

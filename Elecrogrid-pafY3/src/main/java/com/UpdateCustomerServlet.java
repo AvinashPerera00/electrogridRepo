@@ -33,14 +33,14 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			List<Customer> cusDetails = cusDBUtil.getCustomerDetails(id);
 			request.setAttribute("cusDetails", cusDetails);
 			
-			RequestDispatcher dis = request.getRequestDispatcher("customeraccount.jsp");
+			RequestDispatcher dis = request.getRequestDispatcher("cusAccount.jsp");
 			dis.forward(request, response);
 		}
 		else {
 			List<Customer> cusDetails = cusDBUtil.getCustomerDetails(id);
 			request.setAttribute("cusDetails", cusDetails);
 			
-			RequestDispatcher dis = request.getRequestDispatcher("customeraccount.jsp");
+			RequestDispatcher dis = request.getRequestDispatcher("cusAccount.jsp");
 			dis.forward(request, response);
 		}
 	}

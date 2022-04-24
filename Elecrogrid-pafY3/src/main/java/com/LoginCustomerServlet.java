@@ -29,12 +29,12 @@ public class LoginCustomerServlet {
 			List<Customer> cusDetails = cusDBUtil.getCustomer(userName);
 			request.setAttribute("cusDetails", cusDetails);
 			
-			RequestDispatcher dis = request.getRequestDispatcher("customeraccount.jsp");
+			RequestDispatcher dis = request.getRequestDispatcher("cusAccount.jsp");
 			dis.forward(request, response);
 		} else {
 			out.println("<script type='text/javascript'>");
 			out.println("alert('Your username or password is incorrect');");
-			out.println("location='cuslogin.jsp'");
+			out.println("location='cusLogin.jsp'");
 			out.println("</script>");
 		}
 	}

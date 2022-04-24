@@ -25,7 +25,7 @@ public class InsertCustomerServlet {
 			isTrue = cusDBUtil.insertcustomer(name, address, phonenumber, username, password);
 			
 			if(isTrue == true) {
-				RequestDispatcher dis = request.getRequestDispatcher("cuslogin.jsp");
+				RequestDispatcher dis = request.getRequestDispatcher("cusLogin.jsp");
 				dis.forward(request, response);
 			} else {
 				RequestDispatcher dis2 = request.getRequestDispatcher("unsuccess.jsp");
