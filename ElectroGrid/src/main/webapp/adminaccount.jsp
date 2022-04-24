@@ -39,7 +39,7 @@
 
                             <div class="d-flex">
                                 <div class="input-group d-flex">
-                                    <a href="login.jsp"> <button class="btn btn-secondary ">Logout</button></a>
+                                    <a href="index.html"> <button class="btn btn-secondary ">Logout</button></a>
                                 </div>
                             </div>
 

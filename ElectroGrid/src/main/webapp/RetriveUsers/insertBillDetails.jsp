@@ -13,11 +13,11 @@ try {
 	
 	//Database connection creation
 	Class.forName("com.mysql.jdbc.Driver");
-	Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/billdb", "root", "MyNewPass");
+	Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/electricbill", "root", "MyNewPass");
 	Statement st = conn.createStatement();
 
 	//inserting information
-	int i = st.executeUpdate("insert into userbill(name,address,unitsconsumed,billamount,date)values('" + uname + "','"
+	int i = st.executeUpdate("insert into customer(name,address,unitsconsumed,billamount,date)values('" + uname + "','"
 	+ uadd + "','" + uunits + "','" + ubill + "','" + udate + "')");
 	out.println("<script type='text/javascript'>");
 	out.println("alert('Inserted succesfully');");
