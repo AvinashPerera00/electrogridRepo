@@ -55,8 +55,8 @@
                             <c:set var="id" value="${cus.id}" />
                             <c:set var="name" value="${cus.name}" />
                             <c:set var="address" value="${cus.address}" />
-                            <c:set var="phone" value="${cus.phone}" />
-                            <c:set var="username" value="${cus.userName}" />
+                            <c:set var="phone" value="${cus.phonenumber}" />
+                            <c:set var="username" value="${cus.username}" />
                             <c:set var="password" value="${cus.password}" />
 
                             <tbody>
@@ -74,11 +74,11 @@
                                 </tr>
                                 <tr>
                                     <td>Customer Phone Number</td>
-                                    <td>${cus.phone}</td>
+                                    <td>${cus.phonenumber}</td>
                                 </tr>
                                 <tr>
                                     <td>Customer User Name</td>
-                                    <td>${cus.userName}</td>
+                                    <td>${cus.username}</td>
                                 </tr>
 
                         </c:forEach>
@@ -89,7 +89,7 @@
                         <c:param name="id" value="${id}" />
                         <c:param name="name" value="${name}" />
                         <c:param name="address" value="${address}" />
-                        <c:param name="phone" value="${phone}" />
+                        <c:param name="phone" value="${phonenumber}" />
                         <c:param name="uname" value="${username}" />
                         <c:param name="pass" value="${password}" />
                     </c:url>
@@ -105,7 +105,7 @@
                         <c:param name="id" value="${id}" />
                         <c:param name="name" value="${name}" />
                         <c:param name="address" value="${address}" />
-                        <c:param name="phone" value="${phone}" />
+                        <c:param name="phone" value="${phonenumber}" />
                         <c:param name="uname" value="${username}" />
                         <c:param name="pass" value="${password}" />
                     </c:url>

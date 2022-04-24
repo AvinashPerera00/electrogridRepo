@@ -35,7 +35,7 @@
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingAddress" name="address"
                                         placeholder="Enter your address" required>
-                                    <label for="floatingPassword">Enter Email</label>
+                                    <label for="floatingPassword">Enter address</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingPhone" name="phone"

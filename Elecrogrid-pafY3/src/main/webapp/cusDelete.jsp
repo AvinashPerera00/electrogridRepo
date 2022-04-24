@@ -21,7 +21,7 @@
     <body>
 
         <% String id=request.getParameter("id"); String name=request.getParameter("name"); String
-            address=request.getParameter("address"); String phone=request.getParameter("phone"); String
+            address=request.getParameter("address"); String phonenumber=request.getParameter("phone"); String
             userName=request.getParameter("uname"); String password=request.getParameter("pass"); %>
             <div class="m-0">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark opacity-75">
@@ -32,6 +32,9 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav">
+                                <a href="cusAccount.jsp" class="nav-item nav-link active">MyProfile</a>
+                            </div>
                             <div class="d-flex">
                                 <div class="input-group d-flex">
                                     <a href="cusLogin.jsp"> <button class="btn btn-secondary ">Logout</button></a>
@@ -67,7 +70,7 @@
                                 </tr>
                                 <tr>
                                     <td>Phone number</td>
-                                    <td><input type="text" name="phone" value="<%= phone %>" readonly></td>
+                                    <td><input type="text" name="phone" value="<%= phonenumber %>" readonly></td>
                                 </tr>
                                 <tr>
                                     <td>User name</td>
