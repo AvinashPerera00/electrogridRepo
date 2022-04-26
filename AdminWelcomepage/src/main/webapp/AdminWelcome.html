@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+.mySlides {display:none;}
+</style>
+<style>
+.w3-tangerine {
+  font-family: "Tangerine", serif;
+}
+
+</style>
+
+<meta charset="ISO-8859-1">
+<title>Welcome</title>
+</head>
+<body>
+<div class="w3-container">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">Contact</a>
+  <a href="#" class="w3-bar-item w3-button">About us</a>
+  <a href="unitshistory.jsp" class="w3-bar-item w3-button">Units History</a>
+</div>
+
+<div class="w3-bar w3-dark-grey" >
+<div class="w3-container w3-center">
+<header class="w3-display-container w3-content" style="max-width:1500px;">
+
+<div class="w3-container w3-tangerine">
+<p class="w3-jumbo">Welcome To ElectroGrid</p>
+<img class="w3-image" src="images/el1.jpg" alt="el" style="min-width: 1000px" width="1500" height="800">
+</div>
+    
+    
+</header>
+ </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+   
+</div>
+<br>
+<center>
+<div class="w3-bar w3-dark-grey" >
+<div class="w3-row-padding" >
+    <div class="w3-col s4">
+ <div class="w3-card w3-mobile" style="width:70%">
+    <a href="/"><img src="images/el2.jpg" class="w3-hover-opacity" alt="Person" style="width:100%"></a>
+    <div class="w3-container w3-mobile">
+      <h4 class="w3-mobile"><b>Make An Appointment</b></h4>
+      <p>click for appointment</p>
+    </div>
+  </div>
+  </div>
+ 
+
+    <div class="w3-col s4">
+ <div class="w3-card w3-mobile" style="width:70%">
+    <a href="finddoctor.html"><img src="images/el3.jpg" class="w3-hover-opacity" alt="Person" style="width:100%"></a>
+    <div class="w3-container w3-mobile">
+      <h4><b>Find A Doctor </b></h4>
+      <p>click to view doctors</p>
+    </div>
+  </div>
+  </div>
+ 
+ 
+
+    <div class="w3-col s4">
+ <div class="w3-card w3-mobile" style="width:70%">
+    <a href="sevices.html"><img src="images/el4.jpg" class="w3-hover-opacity" alt="Person" style="width:100%"></a>
+    <div class="w3-container w3-mobile">
+      <h4 class="w3-mobile"><b>View Our Services </b></h4>
+      <p>click to view services</p>
+    </div>
+  </div>
+ </div>
+ </div>
+ </center>
+ <br>
+ <div class="w3-bar w3-dark-grey" >
+ 
+ <div class="w3-row-padding" id="about" style="color:white">
+    <div class="w3-col l4 12">
+      <h3>About Us</h3>
+      <h6>We are a team of leading GPs and specialists who have come together to provide patient centred,family-oriented medical services for Sri Lanka.Our team also includes nurse practotioners,nutrionists,physiotherapists and other healthcare staff so that you can treat many health concerns at a single destination.</h6>
+    <br>
+    <p>We accept: <i class="fa fa-credit-card w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>
+    </div>
+    <div class="w3-col l8 12">
+      <!-- Image of clinic room -->
+      <img src="images/el5.jpg" class="w3-image w3-greyscale" style="width:100%;">
+    </div>
+  </div>
+  <div style=" margin: auto;
+width: 50%;
+border: 0px ;
+padding: 10px;">
+  
+  
+</div>
+   <div class="w3-container" id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions, do not hesitate to ask them.</p>
+    <i class="fa fa-map-marker w3-text-white" style="width:30px"></i>Moratuwa,1040,Sri Lanka<br>
+    <i class="fa fa-phone w3-text-white" style="width:30px"></i> Phone: 011-1234522<br>
+    <i class="fa fa-envelope w3-text-white" style="width:30px"> </i> Email: help@mordiv.com<br>
+    </div>
+ 
+ <!-- Footer -->
+<footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+  <h5>Find Us On</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">Avia</a></p>
+</footer>
+</div>
+ </div>
+</body>
+</html>
