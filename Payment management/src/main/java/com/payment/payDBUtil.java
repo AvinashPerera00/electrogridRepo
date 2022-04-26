@@ -60,4 +60,22 @@ public class payDBUtil {
 		return null;
 	}
 
+
+	public static ArrayList<Payment> payinsert(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	public static boolean payinsert(String name, String email, String phone, String username, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	public static boolean deletePayment(String id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
